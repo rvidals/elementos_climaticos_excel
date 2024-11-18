@@ -20,6 +20,7 @@ Para rodar este projeto, você precisa ter o Python instalado em sua máquina. E
 
 ```bash
 pip install pandas xlsxwriter plotly
+```
 
 ## Estrutura do Código
 
