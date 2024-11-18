@@ -1,6 +1,8 @@
 # Geração de gráficos em planilhas excel de dados climáticos obtidos pela base de dados do INMET
 
-Esse projeto, em jupyter notebook, traz uma análise de dados simples no intuito de gerar e salvar gráficos dos valores médios de precipitação, umidade e temperatura (max e min) para a estação Brasília do Instituto Nacional de Meteriologia (INMET) presente no Distrito Federal, para os anos de 1961 a 2023.
+Este projeto, desenvolvido em Jupyter Notebook, realiza uma análise simples dos dados climáticos da estação Brasília do Instituto Nacional de Meteorologia (INMET), com dados de 1961 a 2023. O objetivo principal é gerar gráficos e salvar os valores médios de precipitação, umidade, temperatura máxima e mínima em uma planilha Excel.
+
+## Informações da Estação
 
 <div align="center">
 
@@ -10,11 +12,22 @@ Esse projeto, em jupyter notebook, traz uma análise de dados simples no intuito
 
 </div>
 
-Essa motivação se deu a partir da atualização do Atlas do Distrito Federal que foi alançado em 2020 pela Companhia de Planejamento do Distrito Federal - Codeplan
+Essa análise foi motivada pela atualização do Atlas do Distrito Federal, lançado em 2020 pela Companhia de Planejamento do Distrito Federal (Codeplan).
 
-O código está estruturado em algumas funções que possuem regras de negócios específicas para o tratamento dos dados. Essas funções estão separadas no jupyter notebook em um arquivo python denominado utilidades. 
+## Instalação
 
-Um outro ponto importante no código é a praticidade de salvar os os dados processados (precipitação, umidade, temperatura max e min) em abas separadas no excel juntamente com seus gráficos. 
+Para rodar este projeto, você precisa ter o Python instalado em sua máquina. Em seguida, instale as dependências necessárias:
+
+```bash
+pip install pandas xlsxwriter plotly
+
+## Estrutura do Código
+
+O código está estruturado em funções Python organizadas em um arquivo separado, chamado utilidades.py. Essas funções possuem regras de negócios específicas para o tratamento e análise dos dados climáticos.
+
+Além disso, o script facilita a exportação dos dados processados para um arquivo Excel, organizando as informações de precipitação, umidade, temperatura máxima e mínima em abas separadas, juntamente com os gráficos gerados para cada variável.
+
+## Bibliotecas Utilizadas
 
 As bibliotecas usadas no desenvolvimento desse script são amplamente utilizadas na análise e ciência de dados, utilizando python: 
 
